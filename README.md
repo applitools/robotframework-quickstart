@@ -24,7 +24,7 @@ https://plugins.jetbrains.com/plugin/17424-intellibot-patched
 
 
 ### RobotFramework language server based (`pip install robotframework-lsp`)
-This plugin has issue with autocompletion of check settings keywords.
+These plugins have issues with auto-completion of check settings keywords.
 
 **IntelliJ (PyCharm and friends)**
 
