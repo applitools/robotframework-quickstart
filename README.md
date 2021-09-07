@@ -9,8 +9,13 @@
 `python3 -m venv venv && source venv/bin/activate`
 
 ## Installation
-Before release the latest version could be installed with command:
-`pip install git+https://github.com/applitools/eyes.sdk.python.git@rfe_robot_framework_sdk#subdirectory=eyes_robot`
+Before release the latest version could be installed with following commands:
+```
+pip install -U git+https://github.com/applitools/eyes.sdk.python.git@rfe_robot_framework_sdk#subdirectory=eyes_common
+pip install -U git+https://github.com/applitools/eyes.sdk.python.git@rfe_robot_framework_sdk#subdirectory=eyes_core
+pip install -U git+https://github.com/applitools/eyes.sdk.python.git@rfe_robot_framework_sdk#subdirectory=eyes_selenium
+pip install -U git+https://github.com/applitools/eyes.sdk.python.git@rfe_robot_framework_sdk#subdirectory=eyes_robot
+```
 
 ## Usage
 1. Initialize configuration in current directory: `python -m EyesLibrary init-config`
