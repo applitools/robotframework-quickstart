@@ -22,7 +22,7 @@ Teardown
 *** Test Cases ***
 Check Window
     Eyes Open
-    Eyes Check Window    Ignore Region By Coordinates    [12 22 2 2]    Ignore Region By Element    ${element}
+    Eyes Check Window    Ignore Region By Coordinates    [12 22 2 2]
     Eyes Close Async
 
 

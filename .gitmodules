@@ -1,0 +1,4 @@
+[submodule "eyes.sdk.python"]
+	path = eyes.sdk.python
+	url = https://github.com/applitools/eyes.sdk.python/
+	branch = rfe_robot_framework_sdk
