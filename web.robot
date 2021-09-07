@@ -1,6 +1,6 @@
 *** Settings ***
 Library     SeleniumLibrary
-Library     EyesLibrary     selenium_ufg
+Library     EyesLibrary     web_ufg
 
 Test Setup    Setup
 Test Teardown    Teardown
