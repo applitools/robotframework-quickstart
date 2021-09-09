@@ -2,22 +2,17 @@
 
 ## Before start
 1. Clone this repo in your local directory and switch into it:
-`git clone https://github.com/applitools/robotframework-quickstart.git --recurse-submodules && cd robotframework-quickstart`
+`git clone https://github.com/applitools/robotframework-quickstart.git && cd robotframework-quickstart`
 2. Verify that you have Python in your system:
 `python -V` or `python3 -V` (*We'll count that you have Python 3 installed*).
 3. Create virtual environment in your system and activate:
 
-    `python3 -m venv venv && source venv/bin/activate`
-
-4. Install Invoke:
-
-    `pip install invoke`
-
+    python3 -m venv venv && source venv/bin/activate
 
 ## Installation of library 
 Switch to `eyes.sdk.python` folder and install libraries and switch back: 
 
-    cd eyes.sdk.python && python -m invoke install-packages --editable && cd ..
+    python3 -m pip install eyes_robotframework
 
 At this point you've installed all eyes libraries.
 
