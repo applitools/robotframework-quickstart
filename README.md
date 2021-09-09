@@ -4,10 +4,11 @@
 1. Clone this repo in your local directory and switch into it:
 `git clone https://github.com/applitools/robotframework-quickstart.git && cd robotframework-quickstart`
 2. Verify that you have Python in your system:
-`python -V` or `python3 -V` (*We'll count that you have Python 3 installed*).
+`python -V` or `python3 -V` (*We're count that you're using Python 3*).
 3. Create virtual environment in your system and activate:
 
-    python3 -m venv venv && source venv/bin/activate
+    `python3 -m venv venv && source venv/bin/activate`
+
 
 ## Installation of library 
 Switch to `eyes.sdk.python` folder and install libraries and switch back: 
@@ -20,7 +21,7 @@ At this point you've installed all eyes libraries.
 ## Usage
 1. Initialize configuration in current directory: `python -m EyesLibrary init-config`
 2. Add your API KEY `applitools.yaml` or in `APPLITOOLS_API_KEY` env variable
-3. Run example script: `robot web.robot`
+3. Run example script: `python3 -m robot web.robot`
 
 
 ## Robot Framework autocompletion plugins
