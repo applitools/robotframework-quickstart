@@ -2,24 +2,14 @@
 
 ## Before start
 1. Clone this repo in your local directory and switch into it:
-`git clone https://github.com/applitools/robotframework-quickstart.git && cd robotframework-quickstart`
-2. Verify that you have Python in your system:
-`python -V` or `python3 -V` (*We're count that you're using Python 3*).
-3. Create virtual environment in your system and activate:
-
-    `python3 -m venv venv && source venv/bin/activate`
-
-
-## Installation of library 
-Switch to `eyes.sdk.python` folder and install libraries and switch back: 
-
-    python3 -m pip install eyes_robotframework
-
-At this point you've installed all eyes libraries.
-
+`git clone https://github.com/applitools/robotframework-quickstart.git`
+2. Switch directory to `robotframework-quickstart` by command `cd robotframework-quickstart`
+3. Verify that you have Python in your system:
+`python -V` or `python3 -V` (*We'll count that you have Python 3 installed*).
+4. And install eyes-robotframework package in your system: `python3 -m pip install eyes_robotframework`
 
 ## Usage
-1. Initialize configuration in current directory: `python -m EyesLibrary init-config`
+1. Initialize configuration in current directory: `python3 -m EyesLibrary init-config`
 2. Add your API KEY `applitools.yaml` or in `APPLITOOLS_API_KEY` env variable
 3. Run example script: `python3 -m robot web.robot`
 
